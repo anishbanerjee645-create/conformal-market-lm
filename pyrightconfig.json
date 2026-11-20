@@ -1,0 +1,11 @@
+{
+  "include": [
+    "."
+  ],
+  "extraPaths": [
+    ".",
+    "src"
+  ],
+  "typeCheckingMode": "basic",
+  "reportMissingModuleSource": false
+}

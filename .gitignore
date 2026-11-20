@@ -1,0 +1,36 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments & editor settings
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Environment variables & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Personal / sensitive files (NEVER commit)
+*Bank_Statement*
+*bank_statement*
+*Ledger*
+*ledger*
+
+# Large raw datasets & runtime caches (GitHub warns >50MB)
+Traning Data/
+data/cache/
+data/processed/*.npz
+data/daily_self_learned_dataset.csv
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

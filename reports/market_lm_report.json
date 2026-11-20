@@ -1,0 +1,13 @@
+{
+  "steps": 1802,
+  "val_nll": 3.1487388610839844,
+  "val_unigram_nll": 3.33326448683254,
+  "val_directional_acc": 0.6023333333333334,
+  "val_base_rate": 0.5936666666666667,
+  "val_rank_ic": 0.14576990078534896,
+  "tickers": 3765,
+  "val_windows": 6000,
+  "context": 64,
+  "vocab": 32,
+  "seconds": 723.8
+}

@@ -1,0 +1,59 @@
+{
+  "downloaded_at": "2026-11-12T19:07:39.920214",
+  "num_equities": 29,
+  "num_macro": 5,
+  "total_equity_rows": 35844,
+  "date_min": "2021-11-12",
+  "date_max": "2026-11-12",
+  "sectors": {
+    "IT": [
+      "TCS.NS",
+      "INFY.NS",
+      "HCLTECH.NS",
+      "WIPRO.NS",
+      "TECHM.NS"
+    ],
+    "Banking": [
+      "HDFCBANK.NS",
+      "ICICIBANK.NS",
+      "SBIN.NS",
+      "KOTAKBANK.NS",
+      "AXISBANK.NS"
+    ],
+    "Energy": [
+      "RELIANCE.NS",
+      "ONGC.NS",
+      "NTPC.NS",
+      "POWERGRID.NS",
+      "COALINDIA.NS"
+    ],
+    "Pharma": [
+      "SUNPHARMA.NS",
+      "DRREDDY.NS",
+      "CIPLA.NS",
+      "DIVISLAB.NS",
+      "APOLLOHOSP.NS"
+    ],
+    "FMCG": [
+      "ITC.NS",
+      "HINDUNILVR.NS",
+      "NESTLEIND.NS",
+      "BRITANNIA.NS",
+      "TATACONSUM.NS"
+    ],
+    "Auto_Ind": [
+      "TATAMOTORS.NS",
+      "M&M.NS",
+      "MARUTI.NS",
+      "BAJAJ-AUTO.NS",
+      "LT.NS"
+    ]
+  },
+  "macro_tickers": {
+    "NIFTY50": "^NSEI",
+    "INDIA_VIX": "^INDIAVIX",
+    "USD_INR": "INR=X",
+    "BRENT_CRUDE": "BZ=F",
+    "SP500": "^GSPC"
+  }
+}

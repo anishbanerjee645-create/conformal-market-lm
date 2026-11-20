@@ -1,0 +1,51 @@
+{
+  "universe": 300,
+  "cost_bps_per_side": 10.0,
+  "period": [
+    "2024-03-15",
+    "2026-03-30"
+  ],
+  "results": {
+    "Fused + gate + breaker (ConsensusSignal)": {
+      "total_return_pct": 58.78598602219029,
+      "ann_sharpe_net": 3.2359102626283325,
+      "max_drawdown_pct": -8.838487850789855,
+      "daily_hit_rate": 0.6043737574552683,
+      "mean_daily_rank_ic": 0.027804770839563696,
+      "days": 503
+    },
+    "Fused only": {
+      "total_return_pct": 8.814492866674616,
+      "ann_sharpe_net": 0.720189023532928,
+      "max_drawdown_pct": -11.56341444926835,
+      "daily_hit_rate": 0.5447316103379721,
+      "mean_daily_rank_ic": 0.014447681438947315,
+      "days": 503
+    },
+    "MarketLM only": {
+      "total_return_pct": 80.77863672890415,
+      "ann_sharpe_net": 4.550834144287729,
+      "max_drawdown_pct": -7.598019746824458,
+      "daily_hit_rate": 0.6242544731610338,
+      "mean_daily_rank_ic": 0.03114287619152488,
+      "days": 503
+    },
+    "Online learner only": {
+      "total_return_pct": -40.65457607802785,
+      "ann_sharpe_net": -4.368411931638664,
+      "max_drawdown_pct": -41.50288435219808,
+      "daily_hit_rate": 0.3956262425447316,
+      "mean_daily_rank_ic": -0.0017462807155298639,
+      "days": 503
+    },
+    "Random scores (sanity check)": {
+      "total_return_pct": -58.17654318305405,
+      "ann_sharpe_net": -9.582771455106732,
+      "max_drawdown_pct": -58.220485741902586,
+      "daily_hit_rate": 0.24254473161033796,
+      "mean_daily_rank_ic": 0.000624620994885412,
+      "days": 503
+    }
+  },
+  "seconds": 70.0
+}
